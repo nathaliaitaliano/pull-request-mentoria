@@ -10,20 +10,11 @@
 
 <body>
   <h1>Página de Nathalia</h1>
-  <form id="form">
-  	<input type="text" placeholder="Insira um nome" />
-  	<button type="submit">Salvar</button>
-  </form>
+  <input type="text" />
+  <button>enviar</button>
 
-  <div id="content"></div>
+  <p>Ola Mundo</p>
 
-  <script>
-	document.querySelector("form").addEventListener("submit", function(event) {
-		event.preventDefault();
-		console.log(event);
-		document.querySelector("content").innerHTML = "ola mundo"; 	
-	})
-  </script>
 </body>
 
 </html>
